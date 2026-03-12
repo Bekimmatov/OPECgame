@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-flash: flash 1s infinite;
+}
+
+@keyframes flash {
+  0%, 100% { fill: #EAB308; } /* yellow-500 */
+  50% { fill: #2A2A2A; } /* default map color */
+}
+
